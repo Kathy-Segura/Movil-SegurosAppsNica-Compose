@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Fondo circular en un degradado de lila a azul -->
+    <path
+        android:fillColor="#9575CD"
+        android:pathData="M12,2a10,10 0 1,0 0,20a10,10 0 1,0 0,-20" />
+
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M12,2a10,10 0 1,0 0,20a10,10 0 1,0 0,-20"
+        android:fillAlpha="0.5"/>
+
+    <!-- Forma curva lila oscuro en el lado izquierdo -->
+    <path
+        android:fillColor="#7E57C2"
+        android:pathData="M7,4 C8,6 8,10 7,15 C8,12 8,8 7,4" />
+
+    <!-- Forma curva azul oscuro en el lado derecho -->
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M15,4 C14,6 14,10 15,15 C14,12 14,8 15,4" />
+
+    <!-- Forma central con degradado de lila claro a azul claro -->
+    <path
+        android:fillColor="#9575CD"
+        android:pathData="M10,4 C11,6 11,10 10,16 C11,13 11,7 10,4"
+        android:fillAlpha="0.7"/>
+
+    <!-- Círculo interno en blanco para un contraste limpio -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,7a5,5 0 1,0 0,10a5,5 0 1,0 0,-10" />
+</vector>
