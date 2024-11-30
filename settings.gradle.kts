@@ -21,5 +21,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SegurosAppsNica"
+rootProject.name = "SNIC" // SegurosAppsNica
 include(":app")

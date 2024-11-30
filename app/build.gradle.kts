@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.appsandroid.segurosappsnica"
+    namespace = "com.appsandroid.snic"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.appsandroid.segurosappsnica"
+        applicationId = "com.appsandroid.snic"
         minSdk = 25
         targetSdk = 35
         versionCode = 1
